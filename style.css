@@ -16,7 +16,7 @@ body {
 }
 
 .hero-container {
-    width: 70%;
+    max-width: 70%;
     display: flex;
     flex-direction: column;
 }
@@ -61,7 +61,6 @@ body {
     border-radius: 6px;
     border: 0;
     padding: 8px 32px;
-    
 }
 
 .content {
@@ -73,16 +72,18 @@ body {
 }
 
 .slideshow-container {
-    width: 50%;
     display: flex;
     flex-direction: column;
+    width: 50%;
     padding: 16px;
-    margin: 16px;
+    margin-top: 32px;
+    margin-bottom: 256px;
 }
 
 .slideshow {
     padding: 16px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 
@@ -100,6 +101,28 @@ body {
     margin: 8px;
 }
 
+.quote-container {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    margin-bottom: 256px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    align-self: flex-start;
+    padding: 8px;
+}
+
+.name {
+    font-size: 24px;
+    font-weight: 700;
+    align-self: flex-end;
+    padding: 8px;
+}
+
 .footer {
     color: #e5e7eb;
     background-color: #1f2937;
@@ -111,6 +134,7 @@ body {
 
 h1 {
     font-size: 48px;
+    font-weight: 900;
     color: #f9faf8;
 }
 
