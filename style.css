@@ -55,12 +55,7 @@ body {
 }
 
 .hero-sign-up button{
-    font-weight: 700;
-    background-color: #3882f6;
-    color: #f9faf8;
-    border-radius: 6px;
-    border: 0;
-    padding: 8px 32px;
+
 }
 
 .content {
@@ -94,8 +89,8 @@ body {
 }
 
 .box {
-    width: 128px;
-    height: 128px;
+    width: 160px;
+    height: 160px;
     border: 5px solid #3882f6;
     border-radius: 20px;
     margin: 8px;
@@ -121,6 +116,10 @@ body {
     font-weight: 700;
     align-self: flex-end;
     padding: 8px;
+}
+
+.action-container {
+    
 }
 
 .footer {
@@ -153,4 +152,13 @@ ul {
 a {
     text-decoration: none;
     color: #e5e7eb;
+}
+
+button {
+    font-weight: 700;
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 6px;
+    border: 0;
+    padding: 8px 32px;
 }
